@@ -1,12 +1,11 @@
 import React from "react";
-import Feed from "./pages/Feed";
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
-  return (
-    <>
-      <Feed />
-    </>
-  );
-}
+import Routes from "./routes/app.routes";
 
+const App: React.FC = () => (
+  <BrowserRouter>
+    <Routes />
+  </BrowserRouter>
+);
 export default App;

@@ -1,7 +1,12 @@
 import React from "react";
+import Feed from "./pages/Feed";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Feed />
+    </>
+  );
 }
 
 export default App;

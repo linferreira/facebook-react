@@ -16,18 +16,16 @@ const PostAction = () => {
   );
 
   return (
-    <>
-      <div className="post-action">
-        <div className="post-like-icon liked">
-          {svgLiked}
-          <span>3 Likes</span>
-        </div>
-        <div className="post-comment-icon commented">
-          {svgCommented}
-          <span>1 Comment</span>
-        </div>
+    <div className="post-action">
+      <div className="post-like-icon liked">
+        {svgLiked}
+        <span>3 Likes</span>
       </div>
-    </>
+      <div className="post-comment-icon commented">
+        {svgCommented}
+        <span>1 Comment</span>
+      </div>
+    </div>
   );
 };
 
